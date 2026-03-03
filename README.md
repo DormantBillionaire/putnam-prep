@@ -2,6 +2,7 @@
 
 ### Quotes That Got Me Through Prep 
 > "**Progress doesn't demand Perfection**, it demands commitment repeated without drama"
+
 > "**Consistency wins because it's not what you do once in a while** that matters, it's what you do everyday"
 
 ### My Purpose and Goals: 
