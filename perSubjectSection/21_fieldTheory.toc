@@ -1,0 +1,26 @@
+\babel@toc {american}{}\relax 
+\contentsline {section}{\numberline {1}Computer Science}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Nonfiction}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Research Literature}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Textbooks}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Fiction}{5}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Mathematics}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Nonfiction}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Research Literature}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Textbooks}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Fiction}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Physics}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Nonfiction}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Research Literature}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Textbooks}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Fiction}{5}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Leisure}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Nonfiction}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Research Literature}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Textbooks}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Fiction}{5}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Books Completed w/ Time Of Completion}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Computer Science}{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Mathematics}{5}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Physics}{5}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Leisure}{5}{subsection.5.4}%

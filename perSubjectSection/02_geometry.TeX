@@ -1,0 +1,222 @@
+\documentclass[10pt]{article}
+ 
+% basic packages
+\usepackage[margin=1in]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{custom}
+\usepackage{comment}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+% page formatting
+\usepackage{fancyhdr}
+\pagestyle{fancy} 
+
+\begin{document}
+\title{Reading List for 2026}
+\date{Last Updated On: Feb 27th 2026}
+\maketitle
+
+\fancyhf{}
+\fancyhead[L]{2026 Reading List}
+\fancyhead[R]{\leftmark}
+\fancyhead[C]{\thepage}
+
+% Making sure the right header is NOT in all caps %
+\renewcommand{\sectionmark}[1]{\markright{\textsf{\arabic{section}: #1}}}
+\rhead{Section\ \nouppercase{\rightmark}}
+\chead{}
+\cfoot{}
+
+\begin{comment}
+   ------ THESE ARE THE PREVIOUS COMMANDS FOR THE HEADER, FOOTER, ETC -------
+\renewcommand{\sectionmark}[1]{\markright{\textsf{\arabic{section}. #1}}}
+\renewcommand{\subsectionmark}[1]{}
+\lhead{\scriptsize\textbf{\thepage}\ \ \nouppercase{\rightmark}}
+\chead{}
+\rhead{\normalfont MAP2302 - Spring 2026}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\setlength{\headheight}{5pt}
+   ------ THESE ARE THE PREVIOUS COMMANDS FOR THE HEADER, FOOTER, ETC -------
+\end{comment}
+
+\linespread{1.03} % give a little extra room
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setcounter{secnumdepth}{2} % Numbered subsections  
+\setcounter{tocdepth}{2} % numbered subsubsections in ToC
+
+\tableofcontents
+
+%%%%% COMPUTER SCIENCE LITERATURE %%%%%
+\section{Computer Science}
+This section encompasses my reading in Computer Science, 
+spanning both technical and narrative works. Topics include, but are not limited to:
+\begin{enumerate}
+    \item Collected Works 
+    \item Fiction and biographical accounts of notable and up and coming computer scientists
+    \item Conceptual textbooks ranging from foundational to advanced topics, such as: \\
+\end{enumerate}
+
+\underline {Data Structures \& Algorithms }
+
+\textbf{Data Structures can be defined as the medium through which data and is stored to be 
+accessed later on.} Simply put, a data structure is a collection of data values, the relationships that take place among them, and 
+the functions or operations that can be applied to the data. 
+
+Examples of common data structures include, but are not limited to:
+
+\begin{multicols}{2}
+    \begin{itemize}[label=\textemdash, noitemsep]
+
+        \item [] \textbf{Primitive Types:}
+        \begin{enumerate}[label=\arabic*., noitemsep]
+            \item Characters  
+            \item Floating-Point
+            \item Integer
+        \end{enumerate}
+
+        \vspace{4pt}
+        \item [] \textbf{Composite Types or Non-Primitive:}
+        \begin{enumerate}[label=\arabic*., noitemsep]
+            \item Arrays
+            \item Record ("struct")
+            \item Strings 
+            \item Unions 
+            \item Tagged Union
+        \end{enumerate}
+
+        \columnbreak
+        
+        \item [] \textbf{Abstract Data Types:}
+        \begin{enumerate}[label=\arabic*., noitemsep]
+            \item Container 
+            \item List
+            \item Tuples
+            \item Associative Array, Map 
+            \item Set
+            \item Multiset (Bag) 
+            \item Stack 
+            \item Queue
+            \item Graph (Example: Tree, Heap)
+        \end{enumerate}
+
+    \end{itemize}
+\end{multicols}  
+
+\textbf{Algorithms} are present in the field of Mathematics and Computer Science, and algorithm is a finite (must terminate eventually) sequence 
+of instructions used to solve a variety (or class) of specific problems or to perform a computation. \\
+
+In general, a program is classified as an algorithm only if it stops eventually (satisfies the finite condition), although infinite loops, may also be considered and looked into. Mathematical logician 
+George Boolos and probability theorists Richard Jeffrey define an algorithm as an explicit set of instructions for determining an output, that can be followed by a computing machine 
+or human who could only carry out specific elementary operations on symbols. 
+% REMAINING TOPICS TO BE EDITED %
+
+\underline{Additional Topics Covered}
+\begin{itemize}
+    \item \textbf{Computer Organization and Design } \\
+    \item \textbf{Operating Systems}
+    \item \textbf{Discrete Structures}
+    \item \textbf{Machine Learning \& Neural Networks }
+    \item \textbf{Reinforcement Learning }
+    \item \textbf{Natural Language processing (NLP)}
+    \item \textbf{Computer Vision }
+    \item \textbf{Information Theory}
+\end{itemize}
+
+\newpage
+\subsection{Nonfiction}
+\begin{center}
+\begin{tabularx}{\textwidth}{X l l c c}
+    \toprule
+    \textbf{Title} & \textbf{Author} & \textbf{Level} & \textbf{Status} \\
+    \midrule
+    Code                                                & Charles Petzold            & Foundational               & $\square$ \\
+    The Innovators                                      & Walter Issacson            & Foundational               & $\square$ \\
+    How Google Works                                    & Eric Schmidt               & Foundational               & $\square$ \\
+    The Pragmatic Programmer                            & A. Hunt \& D. Thomas       & Intermediate               & $\square$ \\
+    Clean Code                                          & Robert C. Martin           & Intermediate               & $\square$ \\
+    Machanical Intelligence                             & A.M. Turing                & Intermediate/ Advanced     & $\square$ \\
+    The Art Of Doing Science and Engineering            & R. Hamming                 & Advanced                   & $\square$ \\                
+    \bottomrule
+\end{tabularx}
+\end{center}
+
+
+\subsection{Research Literature}
+
+\subsection{Textbooks}
+% Utilized tabularx instead of tabular for a flexible autofill %
+\begin{center}
+\begin{tabularx}{\textwidth}{X l l c c}
+    \toprule
+    \textbf{Title} & \textbf{Author} & \textbf{Level} & \textbf{Status} \\
+    \midrule
+    Neural Networks from Scratch in Python              & H. Kinsley                 & Intermediate               & $\square$ \\
+    Python Data Science Handbook                        & Jake VanderPlas            & Intermediate               & $\square$ \\
+    Design for How People Think                         & John Whalen                & Intermediate               & $\square$ \\
+    Hands-On Machine Learning w/ Scikit-Learn           & A. Géron                   & Intermediate               & $\square$ \\
+    An Introduction to Statistical Learning             & James et al.               & Intermediate / Advanced    & $\square$ \\
+    Mechanical Intelligence                             & A.M. Turing                & Intermediate / Advanced    & $\square$ \\
+    Reinforcement Learning                              & Sutton \& Barto            & Advanced                   & $\square$ \\
+    Deep Learning                                       & Goodfellow et al.          & Advanced                   & $\square$ \\
+    Deep Learning                                       & C.M. Bishop                & Advanced                   & $\square$ \\
+    \bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection{Fiction}
+% Commented out until I find books to go in here
+% Utilized tabularx instead of tabular for a flexible autofill %
+\begin{comment} 
+\begin{center}
+\begin{tabularx}{\textwidth}{X l l c c}
+    \toprule
+    \textbf{Title} & \textbf{Author} & \textbf{Level} & \textbf{Status} \\
+    \midrule
+    The Hundred-Page ML Book  & Burkov            & Foundational & $\square$ \\
+    Pattern Recognition \& ML & Bishop            & Intermediate & $\square$ \\
+    Deep Learning             & Goodfellow et al. & Advanced     & $\square$ \\
+    Quantum ML                & Wittek            & Graduate     & $\square$ \\
+    \bottomrule
+\end{tabularx}
+\end{center}
+\end{comment}
+
+%%%%% MATHEMATICS LITERATURE %%%%%
+\section{Mathematics}
+\subsection{Nonfiction}
+\subsection{Research Literature}
+\subsection{Textbooks}
+\subsection{Fiction}
+
+
+%%%%% PHYSICS LITERATURE %%%%%
+\section{Physics}
+\subsection{Nonfiction}
+\subsection{Research Literature}
+\subsection{Textbooks}
+\subsection{Fiction}
+
+%%%%% LEISURE LITERATURE %%%%%
+\section{Leisure}
+\subsection{Nonfiction}
+\subsection{Research Literature}
+\subsection{Textbooks}
+\subsection{Fiction}
+
+
+
+\section{Books Completed w/ Time Of Completion}
+\subsection{Computer Science}
+\subsection{Mathematics}
+\subsection{Physics}
+\subsection{Leisure}
+\newpage
+
+\end{document}
